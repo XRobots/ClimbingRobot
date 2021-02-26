@@ -148,7 +148,7 @@ void setup() {
 void loop() {  
       
         currentMillis = millis();
-        if (currentMillis - previousMillis >= 10) {  // start timed event
+        if (currentMillis - previousMillis >= interval) {  // start timed event
           
             previousMillis = currentMillis;
 
